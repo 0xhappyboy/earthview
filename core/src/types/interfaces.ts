@@ -103,6 +103,7 @@ export interface PolygonData {
     outlineColor?: number[];
     outlineWidth?: number;
     title?: string;
+    showMeasurement?: boolean;
 }
 
 export interface PolylineData {
@@ -111,6 +112,7 @@ export interface PolylineData {
     color?: number[];
     width?: number;
     title?: string;
+    showMeasurement?: boolean;
 }
 
 export interface CircleData {
@@ -121,6 +123,7 @@ export interface CircleData {
     outlineColor?: number[];
     outlineWidth?: number;
     title?: string;
+    showMeasurement?: boolean;
 }
 
 export interface CircleDrawData {
